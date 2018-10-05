@@ -68,7 +68,127 @@
 }
 
 
+.font-weight-extra-bold {
+
+   text-align: center;
+}
+
+
+.arr_plan {background-color: rgba(0, 0, 0, 0);
+    background-repeat: no-repeat;
+    background-image: url(img/slide-1.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height:400px;
+    opacity: 1;
+    visibility: inherit;
+    z-index: 20; }
+
+
+    .titre_forum {
+
+    font-size: 24px;
+    color: #fff;
+    margin-top: 250px !important;
+    
+    font-weight: 200;
+   
+    line-height: 40px;
+   
+
+    }
+
+
+        .sous_titre_forum {
+
+    font-size: 20px;
+    color: #fff;
+   margin-top: 160px !important;
+     font-weight: 100;
+    line-height: 40px;
+
+    
+    }
+
+
+    .mt-xl {
+    margin-top: 5px !important;
+}
+
+.mb-xl {
+    margin-bottom: 5px !important;
+}
+.pb-xlg {
+    padding-bottom: 9px !important;
+}
+.pt-xlg {
+    padding-top: 10px !important;
+}
+.mt-xlg {
+    margin-top: 10px !important;
+}
+
+p {
+
+   color:#000;
+}
+
+h2 {
+    font-size: 1.9em;
+    line-height: 1;
+}
+
+.bg_t {background-color:#1c75bc; color:#fff; 
+
+padding-left: 20px;
+padding-right: 20px;
+width: 760px;
+border: 1px solid #fff;
+}
+
+
+
+.t1 {
+
+  width: 150px;
+  color: #1c75bc;
+  font-weight: 700;
+
+}
+
+
+.example{
+   background-image: url("example.jpg");
+}
+
+@media only screen and (max-width: 500px){ //some value
+
+   .example{
+      background-image: url("example2.jpg");
+   }
+}
+
+
+.degradi {
+  background: #4b6cb7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #182848, #274a9b);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #182848, #274a9b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+section.section {
+  margin: 0;
+}
+
+
+
+
       </style>
+
+ 
+
+
    </head>
    <body data-target="#header" data-spy="scroll" data-offset="100">
       <header id="header" class="header-narrow header-transparent custom-header-transparent-style-1" data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyStartAt': 1, 'stickySetTop': '0'}">
@@ -78,6 +198,8 @@
                   <div class="header-column">
                      <div class="header-logo">
                         <a href="demo-event.html">
+
+
                         <img alt="forum des etudes en france " w src="img/demos/event/logo-event.png">
                         </a>
                      </div>
@@ -95,20 +217,28 @@
                               <nav>
                                  <ul class="nav nav-pills custom-nav-pills" id="mainNav">
                                     <li>
-                                       <a class="font-weight-semibold text-color-light" data-hash href="#revolutionSlider">
+                                       <a class="font-weight-semibold text-color-light" data-hash href="#">
                                        Accueil
                                        </a>
                                     </li>
                                     <li>
-                                       <a class="font-weight-semibold text-color-light" data-hash data-hash-offset="80" href="#speakers">
+                                       <a class="font-weight-semibold text-color-light" data-hash data-hash-offset="80" href="#">
                                        Qui Somme Nous ?
                                        </a>
                                     </li>
                                     <li>
-                                       <a class="font-weight-semibold text-color-light" data-hash data-hash-offset="80" href="#about">
+                                       <a class="font-weight-semibold text-color-light" data-hash data-hash-offset="80" href="#">
                                        Contact
                                        </a>
+  
                                     </li>
+                                      
+                                      <li> 
+                                     <a class="font-weight-semibold text-color-light" data-hash data-hash-offset="80" href="#">
+                                      Plan D'exposition 
+                                       </a>
+                                       </li>
+
                                  </ul>
                               </nav>
                            </div>
@@ -120,63 +250,45 @@
          </div>
       </header>
       <main role="main">
-         <div class="slider-container rev_slider_wrapper" style="height: 100vh;">
-            <div id="revolutionSlider" class="slider rev_slider manual">
-               <ul>
-                  <li data-transition="fade">
-                     <img src="img/demos/event/slides/slide-1.jpg"  
-                        alt=""
-                        data-bgposition="center center" 
-                        data-bgfit="cover" 
-                        data-bgrepeat="no-repeat" 
-                        class="rev-slidebg">
-                     <h1 class="tp-caption text-color-light font-weight-extra-bold text-uppercase"
-                        data-x="['center','center','center','center']"
-                        data-hoffset="['75','75','75','75']" 
-                        data-y="['center','center','center','center']"
-                        data-voffset="['-45','-45','-45','-45']" 
-                        data-fontsize="['60', '60', '50', '40']"
-                        data-start="800"
-                        data-paddingleft="['0', '0', '0', '0']"
-                        data-transform_in="y:[-300%];opacity:0;s:500;" >Forum des Etudes en France </h1>
-                     <div class="tp-caption text-color-light"
-                        data-x="['center','center','center','center']"
-                        data-hoffset="['81','81','81','81']" 
-                        data-y="['center','center','center','center']"
-                        data-voffset="['25','25','25','25']" 
-                        data-start="1500"
-                        data-paddingleft="['0', '0', '0', '0']"
-                        data-fontsize="26"
-                        style="z-index: 5;"
-                        data-transform_in="y:[-300%];opacity:0;s:500;">
-                        <span style="font-weight:700; font-size:34px;"> Rabat :  </span> <i class="fa fa-clock-o" style='margin-left:10px;'></i> Le 14 décembre 2018 <i class="fa fa-map-marker" style='margin-left:10px;'></i> à l'hôtel la tour hassan
+         
+
+
+
+
+
+    <section class="mb-none arr_plan " >
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-12">
+                  
+                       
+
+                      <img src="img/sl.png" style="margin-top:120px;" class="img_1">
+                      <img src="img/img_res.png"  class="img_2 img-fluid">
+
+                   
+                     
                      </div>
-                     <div class="tp-caption text-color-light"
-                        data-x="['center','center','center','center']"
-                        data-hoffset="['81','81','81','81']" 
-                        data-y="['center','center','center','center']"
-                        data-voffset="['66','66','66','66']" 
-                        data-start="1500"
-                        data-paddingleft="['0', '0', '0', '0']"
-                        data-fontsize="26"
-                        style="z-index: 5;"
-                        data-transform_in="y:[-300%];opacity:0;s:500;">
-                        <span style="font-weight:700; font-size:34px;"> Casablanca :</span> <i class="fa fa-clock-o" style='margin-left:10px;'></i> Les 15 et 16 décembre 2018 <i class="fa fa-map-marker" style='margin-left:10px;'></i>
-                        au Paradise Plein Ciel  
-                     </div>
-                  </li>
-               </ul>
-            </div>
-         </div>
+                  </div>
+               </div>
+            </section>
+
+
+
          <!-- Presentation -->
+
+             <section class="mb-none  degradi"  >
          <div class="container">
             <div class="row mt-xl mb-xl">
                <div class="col-md-3">
-                  <img class="img-responsive mt-xl appear-animation animated fadeInLeft appear-animation-visible" src="img/top-quality-documentation.png" alt="" data-appear-animation="fadeInLeft">
+                  <img class="img-responsive mt-xl appear-animation animated fadeInLeft appear-animation-visible res"  src="img/top-quality-documentation.png" alt="" data-appear-animation="fadeInLeft" >
                </div>
-               <div class="col-md-9">
-                  <h2 class="mt-xl"> <strong> UN RENDEZ-VOUS EXCLUSIF AUX GRANDES ECOLES ET UNIVERSITÉS FRANÇAISES</strong></h2>
-                  <p style="text-align:justify;">
+
+               <div class="col-md-9" style="margin-top:20px;">
+
+
+                  <h2 class="mt-xl" style="font-size:24px; color:#fff;"> <strong> Un Rendez-vous exclusif aux Grandes Ecoles et Universités Françaises</strong></h2>
+                  <p style="text-align:justify; color:#fff; text-align:justify;">
                      Un espace privilégié où les établissements français peuvent rencontrer
                      une cible de bacheliers et étudiants marocains décidés à poursuivre
                      leurs études dans l’Hexagone. Organisé par Groupe l’Etudiant
@@ -188,8 +300,11 @@
                </div>
             </div>
          </div>
+         </section>
+
+
          <!-- Icccon Informations --> 
-         <section id="counter" class="section section-parallax section-text-light section-center m-none pt-xlg pb-xlg" data-plugin-parallax="" data-plugin-options="{'speed': 1.5}" data-image-src="img/demos/event/counter/parallax-event.jpg" style="position: relative; overflow: hidden;">
+         <section id="counter" class="section section-parallax section-text-light section-center m-none pt-xlg pb-xlg" data-plugin-parallax="" data-plugin-options="{'speed': 1.5}" data-image-src="img/demos/event/counter/parallax-event.jpg" style="position: relative; overflow: hidden; " >
             <div class="parallax-background" style="background-image: url(&quot;img/demos/event/counter/parallax-event.jpg&quot;); background-size: cover; position: absolute; top: 0px; left: 0px; width: 100%; height: 180%; transform: translate3d(0px, -77.625px, 0px); background-position-x: 50%;"></div>
             <div class="container mt-xlg mb-xlg">
                <div class="row mt-sm mb-sm">
@@ -204,8 +319,8 @@
                      <div class="col-xs-12 col-md-4 col-sm-6">
                         <div class="counter mb-lg mt-lg">
                            <img src="img/demos/event/counter/col2.png" class="img-responsive m-auto" alt="">
-                           <strong class="text-color-light mt-md mb-xs"> 1 ère</strong>
-                           <label class="text-color-light font-weight-normal text-uppercase center custom-font-size-2">Estudiantine Étrangère.</label>
+                           <strong class="text-color-light mt-md mb-xs"> 1ère</strong>
+                           <label class="text-color-light font-weight-normal text-uppercase center custom-font-size-2">Communauté Estudiantine Étrangère.</label>
                         </div>
                      </div>
                      <div class="col-xs-12 col-md-4 col-sm-6">
@@ -220,122 +335,125 @@
                </div>
             </div>
          </section>
-         <!-- PLANNING --> 
-         <div class="container pt-xlg pb-xlg mt-xlg">
-            <div class="row pt-sm pb-xlg">
-               <div class="col-sm-6 col-md-6">
-                  <h2> <strong> Planning du Forum des Etudes en France </strong></h2>
-                  <div class="timeline-balloon pb-xlg mb-sm">
-                     <div class="balloon-cell balloon-time pt-xl">
-                        <span class="time-text text-color-dark font-weight-bold custom-font-size-3">Jeudi 13/12/18 </span>
-                        <div class="time-dot background-color-light"></div>
-                     </div>
-                     <div class="balloon-cell appear-animation animated fadeIn appear-animation-visible" data-appear-animation="fadeIn" data-appear-animation-delay="0">
-                        <div class="balloon-content balloon-shadow background-color-light text-color-quaternary p-xl">
-                           <span class="balloon-arrow background-color-light"></span>
-                           <div class="balloon-description pl-lg">
-                              <h5 class="text-color-dark text-uppercase font-weight-bold m-none"> Arrivée Casablanca</h5>
-                           </div>
+
+
+
+<div class="container" style="margin-top:20px;">
+<div class="row">
+                        <div class="col-md-6">
+
+                           <h4> Venez à la rencontre de votre coeur de cible</h4>
+
+                           <ul class="list list-icons list-primary">
+                              <li class="appear-animation animated fadeInUp appear-animation-visible" data-appear-animation="fadeInUp" data-appear-animation-delay="0"><i class="fa fa-check"></i> Candidats au Bac de la mission française au Maroc :
+réseau AEFE et réseau OSUI.</li>
+                              <li class="appear-animation animated fadeInUp appear-animation-visible" data-appear-animation="fadeInUp" data-appear-animation-delay="300"><i class="fa fa-check"></i> Bacheliers des prestigieux lycées privés à
+Casablanca, Rabat et Régions.</li>
+                              <li class="appear-animation animated fadeInUp appear-animation-visible" data-appear-animation="fadeInUp" data-appear-animation-delay="600"><i class="fa fa-check"></i> Étudiants de l’enseignement supérieur en quête
+d’admissions parallèles en France.</li>
+                              <li class="appear-animation animated fadeInUp appear-animation-visible" data-appear-animation="fadeInUp" data-appear-animation-delay="900"><i class="fa fa-check"></i> Parents d’élèves accompagnant de près les choix de
+leurs enfants.</li>
+              
+                           </ul>
+                        </div>
+                        <div class="col-md-6">
+
+                           <h4> Participez et bénéficiez des meilleures retombées </h4>
+
+                           <ul class="list list-icons list-primary">
+                              <li class="appear-animation animated fadeInUp appear-animation-visible" data-appear-animation="fadeInUp" data-appear-animation-delay="0"><i class="fa fa-check"></i> Élargir votre horizon de recrutement à l’international
+dans un pays classé premier pourvoyeur d’étudiants en
+France.</li>
+                              <li class="appear-animation animated fadeInUp appear-animation-visible" data-appear-animation="fadeInUp" data-appear-animation-delay="300"><i class="fa fa-check"></i> Concrétiser le rayonnement international de votre
+établissement.</li>
+                              <li class="appear-animation animated fadeInUp appear-animation-visible" data-appear-animation="fadeInUp" data-appear-animation-delay="600"><i class="fa fa-check"></i> Dénicher des opportunités de partenariat au Maroc :
+double diplômation, délocalisation de cursus, création
+d’antenne marocaine. </li>
+                             
+                           </ul>
+
                         </div>
                      </div>
-                  </div>
-                  <div class="timeline-balloon pb-xlg mb-sm">
-                     <div class="balloon-cell balloon-time pt-xl">
-                        <span class="time-text text-color-dark font-weight-bold custom-font-size-3">Vendredi 14/12/18 </span>
-                        <div class="time-dot background-color-light"></div>
                      </div>
-                     <div class="balloon-cell appear-animation animated fadeIn appear-animation-visible" data-appear-animation="fadeIn" data-appear-animation-delay="0">
-                        <div class="balloon-content balloon-shadow background-color-light text-color-quaternary p-xl">
-                           <span class="balloon-arrow background-color-light"></span>
-                           <div class="balloon-description pl-lg">
-                              <h5 class="text-color-dark text-uppercase font-weight-bold m-none"> Forum Rabat à l'Hôtel la Tour Hassan </h5>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="timeline-balloon pb-xlg mb-sm">
-                     <div class="balloon-cell balloon-time pt-xl">
-                        <span class="time-text text-color-dark font-weight-bold custom-font-size-3"> du 15 et 16 Déc 2018 </span>
-                        <div class="time-dot background-color-light"></div>
-                     </div>
-                     <div class="balloon-cell appear-animation animated fadeIn appear-animation-visible" data-appear-animation="fadeIn" data-appear-animation-delay="0">
-                        <div class="balloon-content balloon-shadow background-color-light text-color-quaternary p-xl">
-                           <span class="balloon-arrow background-color-light"></span>
-                           <div class="balloon-description pl-lg">
-                              <h5 class="text-color-dark text-uppercase font-weight-bold m-none"> Forum Casablanca Au paradise plein ciel </h5>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                
-                  <div class="timeline-balloon pb-xlg mb-sm">
-                     <div class="balloon-cell balloon-time pt-xl">
-                        <span class="time-text text-color-dark font-weight-bold custom-font-size-3">Lundi 17/12/18 </span>
-                        <div class="time-dot background-color-light"></div>
-                     </div>
-                     <div class="balloon-cell appear-animation animated fadeIn appear-animation-visible" data-appear-animation="fadeIn" data-appear-animation-delay="0">
-                        <div class="balloon-content balloon-shadow background-color-light text-color-quaternary p-xl">
-                           <span class="balloon-arrow background-color-light"></span>
-                           <div class="balloon-description pl-lg">
-                              <h5 class="text-color-dark text-uppercase font-weight-bold m-none"> Départ Casablanca</h5>
-                           </div>
-                        </div>
+              
+
+
+<section class="parallax section section-parallax section-center" data-plugin-parallax="" data-plugin-options="{'speed': 1.5}" data-image-src="img/parallax-7.jpg" style="position: relative; overflow: hidden;"><div class="parallax-background" style="background-image: url(&quot;img/parallax-7.jpg&quot;); background-size: cover; position: absolute; top: 0px; left: 0px; width: 100%; height: 180%; transform: translate3d(0px, -44.5714px, 0px); background-position-x: 50%;"></div>
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-12 ">
+                   
+                     
+                      
+
+                      <img src="img/planning.png"  class="img_3 img-fluid">
+                      <img src="img/planing_mobile.png"  class="img_4 img-fluid">
+
+
+
                      </div>
                   </div>
                </div>
-               <div class="col-sm-6 col-md-6">
-                  <h2> <strong> VENEZ à LA RENCONTRE  </strong> <br>
-                     de votre coeur de cible
-                  </h2>
-                  <ul class="list list-icons list-primary">
-                     <li class="appear-animation animated fadeInUp appear-animation-visible" data-appear-animation="fadeInUp" data-appear-animation-delay="0"><i class="fa fa-check"></i> Candidats au Bac de la mission française au Maroc :
-                        réseau AEFE et réseau OSUI.
-                     </li>
-                     <li class="appear-animation animated fadeInUp appear-animation-visible" data-appear-animation="fadeInUp" data-appear-animation-delay="300"><i class="fa fa-check"></i> Candidats au Bac des prestigieux lycées privés à
-                        Casablanca, Rabat et Régions.
-                     </li>
-                     <li class="appear-animation animated fadeInUp appear-animation-visible" data-appear-animation="fadeInUp" data-appear-animation-delay="600"><i class="fa fa-check"></i> Étudiants de l’enseignement supérieur en quête
-                        d’admissions parallèles en France.
-                     </li>
-                     <li class="appear-animation animated fadeInUp appear-animation-visible" data-appear-animation="fadeInUp" data-appear-animation-delay="900"><i class="fa fa-check"></i>Parents d’élèves accompagnant de près les choix de
-                        leurs enfants.
-                     </li>
-                  </ul>
-                  <h2 style="margin-top:30px;"> <strong> PARTICIPEZ ET BENEFICIEZ  </strong> <br>
-                     des meilleures retombées 
-                  </h2>
-                  <ul class="list list-icons list-primary">
-                     <li class="appear-animation animated fadeInUp appear-animation-visible" data-appear-animation="fadeInUp" data-appear-animation-delay="0"><i class="fa fa-check"></i> Élargir votre horizon de recrutement à l’international
-                        dans un pays classé premier pourvoyeur d’étudiants en
-                        France.
-                     </li>
-                     <li class="appear-animation animated fadeInUp appear-animation-visible" data-appear-animation="fadeInUp" data-appear-animation-delay="300"><i class="fa fa-check"></i> Concrétiser le rayonnement international de votre
-                        établissement.
-                     </li>
-                     <li class="appear-animation animated fadeInUp appear-animation-visible" data-appear-animation="fadeInUp" data-appear-animation-delay="600"><i class="fa fa-check"></i> Dénicher des opportunités de partenariat au Maroc :
-                        double diplômation, délocalisation de cursus, création
-                        d’antenne marocaine.
-                     </li>
-                  </ul>
-               </div>
-            </div>
-         </div>
-         </div>
-         <!-- Site App Cata --> 
+            </section>
+
      
-     <hr class="short">
+<section class="section section-default">
+   
 
-    <div class="container pt-xlg pb-xlg mt-xlg">
-            <div class="row pt-sm pb-xlg">
-               <div class="col-sm-5 col-md-5">
+ <div class="container pt-xlg pb-xlg mt-xlg" >
+            <div class="row pt-sm pb-xlg" >
 
-                     <img src="img/catalogue.png" alt="">
+
+               <div class="col-sm-7 col-md-7">
+
+               <h2><strong> VOTRE ESPACE </strong></h2>
+                
+                              <strong>   Rabat : </strong> Journée d’exposition + Déplacement Inter-urbain
+Casablanca / Rabat / Casablanca
++ Déjeuner + Pauses cafés </br>
+
+         <strong>   Casablanca : </strong> Stand 9m2 équipé :
+Enseigne + 1 Table + 3 Chaises + Badges + Corbeille
++ Transfert (Hôtel/Exposition) + Pauses cafés
+
+<br>
+<br>
+
+ <strong> Demander Votre Devis : </strong> <button type="button" class="btn btn-borders btn-primary btn-lg" style="margin-left:20px;"> Package Forfaitaire </button>  </strong> <button type="button" class="btn btn-borders btn-primary btn-lg" style="margin-left:20px;" > Prix à la Carte </button>
+
+
+
+
+
+     
+                  </div>
+
+                  <div class="col-md-5 centrer">
+
+
+
+                <img src="img/stand.png" alt="" class="res">
+              
+                  </div>
+               </div>
+               </div>
+
+
+</section>
+
+
+
+    <div class="container pt-xlg pb-xlg mt-xlg" >
+            <div class="row pt-sm pb-xlg" >
+               <div class="col-sm-5 col-md-5 centrer">
+
+                     <img src="img/catalogue.png" alt="" class="res">
                   </div>
 
                   <div class="col-md-7">
 
 
-<h2><strong>Votre Fiche technique sur le Catalogue Officiel.</strong></h2>
+<h2><strong>Votre Fiche Technique sur le Catalogue Officiel.</strong></h2>
                 
                      <p >Diffusé gratuitement à plus de 5000
 exemplaires, le Catalogue du Forum
@@ -359,7 +477,7 @@ parents d’élèves. </li>
 techniques des établissements
 participants. </li>
                               <li><i class="fa fa-check-circle"></i> <strong> Format : </strong> A4 - 21 x 29.7 cm. </li>
-                              <li><i class="fa fa-check-circle"></i> <strong> Distribution : </strong> Gratuit</li>
+                              <li><i class="fa fa-check-circle"></i> <strong> Distribution : </strong> Gratuite</li>
 
                               <li><i class="fa fa-check-circle"></i> <strong> Tirage : </strong> 5000 exemplaires </li>
 
@@ -399,7 +517,7 @@ coordonnées…).
 
                      </div>
                      <div class="col-md-3">
-                        <img class="hidden-xs img-responsive appear-animation animated fadeInRight appear-animation-visible" style="margin-top: -160px;" src="img/updates.png" alt="" data-appear-animation="fadeInRight">
+                        <img class="hidden-xs img-responsive appear-animation animated fadeInRight appear-animation-visible" style="margin-top: -110px;" src="img/updates.png" alt="" data-appear-animation="fadeInRight">
                      </div>
                   </div>
                </div>
@@ -412,15 +530,15 @@ coordonnées…).
    <div class="container pt-xlg pb-xlg mt-xlg">
    <div class="row pt-sm pb-xlg">
 
-    <div class="col-sm-5 col-md-5">
-     <img src="img/site.png" alt="">
+    <div class="col-sm-5 col-md-5 centrer">
+     <img src="img/site.png" alt="" class="res" >
     </div>
 
    <div class="col-sm-7 col-md-7">
                    <h2><strong>WWW.ETUDIANT.MA</strong></h2>
                         <p>
 Adresse incontournable des
-jeunes, le portail : etudiant.ma
+jeunes, le portail Etudiant.ma
 accueille tous les jours des
 milliers d’étudiants et parents
 à la recherche des meilleures
@@ -444,12 +562,20 @@ de l’Afrique subsaharienne.</p>
                               <li><i class="fa fa-check-circle"></i> <strong> Bacheliers : </strong> 45% </li>
                               <li> <i class="fa fa-check-circle"></i> <strong> Etudiants : </strong> 27% </li>
                               <li>  <i class="fa fa-check-circle"></i> <strong> Parents : </strong> 28% </li>
-                            
-
-                           
-
-
+                          
                            </ul>
+
+
+                           <h5>Campagne pré-évènement j-10</h5>
+                             <ul class="list list-inline list-icons">
+                              <li><i class="fa fa-check-circle"></i> <strong> Bannière publicitaires : </strong> 25.000 impressions </li>
+                              <li> <i class="fa fa-check-circle"></i> <strong> Sms à notre BDD </strong> 10.000 sms </li>
+                              <li>  <i class="fa fa-check-circle"></i> <strong> Promotion Réseux Sociaux  </strong>  </li>
+                          
+                           </ul>
+
+
+
                         </li>
                      
                      </ul>
@@ -475,7 +601,7 @@ cross canal à fort impact </strong></h2>
                         <p>
 Construite autour de supports de communication créatifs, la campagne
 promo du Forum des Etudes en France vise à susciter l’engouement
-des bacheliers, des étudiants et des parents en tant cible principale
+des bacheliers, des étudiants et des parents en tant que cible principale
 de l’événement, ainsi qu’à faire rayonner son identité institutionnelle
 auprès des professionnels et du grand public.
                         </p>
@@ -505,12 +631,17 @@ auprès des professionnels et du grand public.
    <div class="row pt-sm pb-xlg">
 
    <div class="col-sm-6 col-md-6">
+
+   <h4> Paradise Plein Ciel </h4>
                   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6646.615487621475!2d-7.6686652!3d33.5973188!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7d2567516da5f%3A0x262cc8a9fa56b58b!2sPlein+Ciel+Paradise!5e0!3m2!1sfr!2sma!4v1538489732006" width="550" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
     </div>
 
    <div class="col-sm-6 col-md-6">
-    <h4 > Contactez Nous </h4>
+      <h4> Hôtel la Tour Hassan  </h4>
+
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.949416968875!2d-6.832165384418074!3d34.01950932690108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda76b8f50d0a30f%3A0x7c901812ad50ed31!2sH%C3%B4tel+la+Tour+Hassan+Palace!5e0!3m2!1sfr!2sma!4v1538667581510" width="550" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
    </div>
 
             </div>
@@ -527,51 +658,39 @@ auprès des professionnels et du grand public.
             <div class="row mb-xlg pb-xlg">
                <div class="col-md-5">
                   <div class="mb-xlg pb-xlg">
-                     <h4 class="text-color-light font-weight-light mb-sm">Porto Event - July 17 &amp; 18, 2017 in NYC</h4>
-                     <p class="custom-font-size-3 text-color-light font-weight-normal text-uppercase mb-none">New York Plaza - New Work - NY</p>
+                     <h4 class="text-color-light font-weight-light mb-sm"> Forum des Etudes en France</h4>
+                     <p class="custom-font-size-3 text-color-light font-weight-normal text-uppercase mb-none">Rabat : le 14 Décembre 2018 & Casablanca les 15/16 Décembre 2018</p>
                   </div>
-                  <a href="" class="btn btn-primary custom-border-radius custom-btn-style-1 font-size-md font-weight-semibold text-color-light text-uppercase outline-none">Buy Tickets <i class="custom-long-arrow-right ml-md" aria-hidden="true"></i></a>
+                  <a href="" class="btn btn-primary custom-border-radius custom-btn-style-1 font-size-md font-weight-semibold text-color-light text-uppercase outline-none">Demande de Devis <i class="custom-long-arrow-right ml-md" aria-hidden="true"></i></a>
                </div>
                <div class="col-md-3">
                   <div class="contact-details">
-                     <h4 class="text-color-light font-weight-light mb-lg pb-xs">Contact Us</h4>
+                     <h4 class="text-color-light font-weight-light mb-lg pb-xs"> Contactez-Nous </h4>
                      <div class="mb-md">
-                        <strong class="font-weight-light text-color-light">Address:</strong>
-                        <span class="font-weight-light">1234 Street Name, City Name, United States</span>
+                        <strong class="font-weight-light text-color-light"> Télephone : </strong>
+                        <span class="font-weight-light">(212) 522 861 234 </span>
                      </div>
                      <div class="mb-md">
-                        <strong class="font-weight-light text-color-light">Phone:</strong>
-                        <a href="tel:1234567890" class="text-decoration-none font-weight-light">(123) 456-7890</a>
+                        <strong class="font-weight-light text-color-light"> Fax : </strong>
+                        <a href="tel:1234567890" class="text-decoration-none font-weight-light">(212) 522 861 277</a>
                      </div>
                      <div>
                         <strong class="font-weight-light text-color-light">Email:</strong>
-                        <a href="mailto:mail@example.com" class="text-decoration-none font-weight-light">mail@example.com</a>
+                        <a href="#" class="text-decoration-none font-weight-light"> Contact@etudiant.ma</a>
                      </div>
                   </div>
                </div>
                <div class="col-md-3 col-md-offset-1">
-                  <h4 class="text-color-light font-weight-light mb-lg pb-xs">Follow Us</h4>
+                  <h4 class="text-color-light font-weight-light mb-lg pb-xs"> Suivez nous </h4>
                   <ul class="social-icons">
                      <li class="social-icons-facebook">
-                        <a href="http://www.facebook.com/" target="_blank" title="Facebook">
+                        <a href="http://www.facebook.com/etudiant.ma" target="_blank" title="Facebook">
                         <i class="fa fa-facebook"></i>
                         </a>
                      </li>
-                     <li class="social-icons-twitter">
-                        <a href="http://www.twitter.com/" target="_blank" title="Twitter">
-                        <i class="fa fa-twitter"></i>
-                        </a>
-                     </li>
-                     <li class="social-icons-google">
-                        <a href="http://www.plus.google.com/" target="_blank" title="Twitter">
-                        <i class="fa fa-google-plus" aria-hidden="true"></i>
-                        </a>
-                     </li>
-                     <li class="social-icons-linkedin">
-                        <a href="http://www.linkedin.com/" target="_blank" title="Linkedin">
-                        <i class="fa fa-linkedin"></i>
-                        </a>
-                     </li>
+                    
+                  
+                  
                   </ul>
                </div>
             </div>
