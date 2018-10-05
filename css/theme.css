@@ -4942,3 +4942,54 @@ html.boxed .main {
 		background: none !important;
 	}
 }
+
+
+.img_2{
+   display: none !important;
+}
+
+
+
+      @media only screen and (max-width: 479px){ 
+   .img_1{
+     display: none !important;
+
+
+   }
+
+   .img_2{
+     display: block !important;
+     margin-top: 70px;
+         width: 100%;
+    height: auto;
+   }
+}
+
+
+
+
+.img_4{
+   display: none !important;
+}
+
+
+
+      @media only screen and (max-width: 479px){ 
+   .img_3{
+     display: none !important;
+
+
+   }
+
+   .img_4{
+     display: block !important;
+         width: 100%;
+    height: auto;
+   }
+
+.res {
+
+	text-align: center;
+	max-width: 479px;
+}
+
