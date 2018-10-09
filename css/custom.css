@@ -6,3 +6,16 @@
 .list-inline {
   color: #ffffff;
 }
+
+.header-body {
+  background: #ffffff !important;
+}
+
+.header-body a {
+  color: black !important;
+}
+
+#header .header-nav-main nav > ul > li.open > a, #header .header-nav-main nav > ul > li:hover > a {
+  background: #d2322d;
+  color: #ffffff;
+}
