@@ -33,3 +33,16 @@ ul.plan-regular-list li {
   background-image: linear-gradient(to bottom, #acc4ef, #80a5e6);
   background-color: #80a5e6;
 }
+
+
+
+
+#footer {
+  margin-top:0;
+  padding-top: 0;
+
+}
+
+.contact p {
+  color:#fff;
+}
