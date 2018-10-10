@@ -85,6 +85,15 @@
            padding-left: 15px;
          }
 
+.hide {
+   display: none !important;
+}
+
+  @media only screen and (max-width: 479px){ 
+
+   .hide{
+     display: block !important;
+   }
 
       </style>
    </head>
@@ -166,7 +175,7 @@
                            class="rev-slidebg">
                         <div class="tp-caption featured-label"
                            data-x="center"
-                           data-y="center" data-voffset="-138"
+                           data-y="center" data-voffset="-80"
                            data-start="500"
                            style="z-index: 5"
                            data-transform_in="y:[100%];s:500;"
@@ -175,14 +184,14 @@
                         </div>
                         <div class="tp-caption featured-label"
                            data-x="center"
-                           data-y="center" data-voffset="-45"
+                           data-y="center" data-voffset="10"
                            data-start="500"
                            style="z-index: 5"
                            data-transform_in="y:[100%];s:500;"
                            data-transform_out="opacity:0;s:500;"> Le Forum des Etudes en France</div>
                         <div class="tp-caption bottom-label"
                            data-x="center"
-                           data-y="center" data-voffset="5"
+                           data-y="center" data-voffset="80"
                            data-start="1000"
                            data-transform_idle="o:1;"
                            data-transform_in="y:[100%];z:0;rZ:-35deg;sX:1;sY:1;skX:0;skY:0;s:600;e:Power4.easeInOut;"
@@ -212,9 +221,53 @@
                   </div>
                </div>
             </section>
+
+
+
             <section>
             <div class="container">
-               <div class="row mb-lg">
+
+         <div class="row mb-lg hide">
+          <div class="row pt-xl clearfix">
+   
+                  <div class="col-md-6">
+                     <h4> Venez à la rencontre de votre coeur de cible</h4>
+                     <ul class="list list-icons list-primary">
+                        <li data-appear-animation="fadeInUp" data-appear-animation-delay="0"><i class="fa fa-check"></i> Candidats au Bac de la mission française au Maroc :
+                           réseau AEFE et réseau OSUI.
+                        </li>
+                        <li data-appear-animation="fadeInUp" data-appear-animation-delay="300"><i class="fa fa-check"></i> Bacheliers des prestigieux lycées privés à
+                           Casablanca, Rabat et Régions.
+                        </li>
+                        <li data-appear-animation="fadeInUp" data-appear-animation-delay="600"><i class="fa fa-check"></i> Étudiants de l’enseignement supérieur en quête
+                           d’admissions parallèles en France.
+                        </li>
+                        <li data-appear-animation="fadeInUp" data-appear-animation-delay="900"><i class="fa fa-check"></i> Parents d’élèves accompagnant de près les choix de
+                           leurs enfants.
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="col-md-6">
+                     <h4> Participez et bénéficiez des meilleures retombées </h4>
+                     <ul class="list list-icons list-primary">
+                        <li data-appear-animation="fadeInUp" data-appear-animation-delay="0"><i class="fa fa-check"></i> Élargir votre horizon de recrutement à l’international
+                           dans un pays classé premier pourvoyeur d’étudiants en
+                           France.
+                        </li>
+                        <li data-appear-animation="fadeInUp" data-appear-animation-delay="300"><i class="fa fa-check"></i> Concrétiser le rayonnement international de votre
+                           établissement.
+                        </li>
+                        <li data-appear-animation="fadeInUp" data-appear-animation-delay="600"><i class="fa fa-check"></i> Dénicher des opportunités de partenariat au Maroc :
+                           double diplômation, délocalisation de cursus, création
+                           d’antenne marocaine. 
+                        </li>
+                     </ul>
+                     </div>
+               </div>
+
+             </div>
+
+               <div class="row mb-lg hidden-xs">
                   <div class="row pt-xl clearfix">
                      <div class="col-md-6">
                         <h4 style="text-align:left; font-weight:bold;">Venez à la rencontre de votre coeur de cible </h4>
@@ -286,6 +339,22 @@
                </div>
             </div>
             </section>
+
+
+              <section id="counter" class="section section-parallax section-center m-none pt-xlg pb-xlg" data-plugin-parallax data-plugin-options="{'speed': 1.5}" data-image-src="img/parallax-7.png">
+          
+            <div class="container">
+               <div class="row pt-sm pb-sm">
+                  <div class="col-md-12 ">
+                     <h2 class="mb-sm"><strong > Planning du Forum des Etudes en France </strong></h2>
+                     <img src="img/planning.png"  class="img_3 img-fluid" data-appear-animation="fadeInUp" data-appear-animation-delay="200">
+                     <img src="img/planing_mobile.png"  class="img_4 img-fluid">
+                  </div>
+               </div>
+            </div>
+         </section>
+
+
 
 <section class="section section-primary mb-none">
 					<div class="container">
@@ -419,7 +488,7 @@
          </div>
       </div>
       <!-- Vendor -->
-      <script src="vendor/jquery/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
       <script src="vendor/jquery.appear/jquery.appear.min.js"></script>
       <script src="vendor/jquery.easing/jquery.easing.min.js"></script>
       <script src="vendor/jquery-cookie/jquery-cookie.min.js"></script>

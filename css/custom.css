@@ -29,7 +29,7 @@ ul.plan-regular-list li {
 }
 
 .pricing-table .plan-ribbon.ribbon-optional {
-  background-image: -webkit-linear-gradient(top, #80a5e6, #acc4ef);
-  background-image: linear-gradient(to bottom, #80a5e6, #acc4ef);
+  background-image: -webkit-linear-gradient(top, #acc4ef, #80a5e6,);
+  background-image: linear-gradient(to bottom, #acc4ef, #80a5e6);
   background-color: #80a5e6;
 }
