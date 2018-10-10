@@ -346,70 +346,55 @@
 
                   <div class="container">
                           <div class="col-sm-12">
-                            <h2 class="mb-lg mt-lg text-center">Nos <strong>Services</strong></h2>
+                            <h2 class="mb-1 text-center">Nos <strong>Services</strong></h2>
                           </div>
                           <div class="pricing-table row no-gutters mt-2 mb-2">
                             <div class="col-lg-3 col-sm-6">
                               <div class="plan">
-                                <div class="plan-ribbon-wrapper"><div class="plan-ribbon">Inclus!</div></div>
-                                <h3 class="mb-xs">Catalogue<br> &nbsp;</h3>
-                                <a class="btn btn-sm btn-primary mb-sm" href="#">En savoir plus</a>
-                                <ul class="mt-none">
-                                  <li><strong>Fiche de présentation:</strong> Offerte</li>
-                                  <li><strong>Cible:</strong> Lycéens, Etudiants, Parents</li>
-                                  <li><strong>Distribution:</strong> Gratuite</li>
-                                  <li><strong>Tirage:</strong> 5000 exemplaires</li>
-                                  <li><strong>Exclusivité:</strong> Parution exclusive des fiches techniques des établissements participants.</li>
+                                <h3 class="mb-sm">Catalogue</h3>
+                                <a class="btn btn-sm btn-primary" href="#">En savoir plus</a>
+                                <ul>
+                                  <li><strong>10GB</strong> Disk Space</li>
+                                  <li><strong>100GB</strong> Monthly Bandwidth</li>
+                                  <li><strong>20</strong> Email Accounts</li>
+                                  <li><strong>Unlimited</strong> subdomains</li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 text-center">
+                              <div class="plan">
+                                <div class="plan-ribbon-wrapper"><div class="plan-ribbon">En option</div></div>
+                                <h3>Professional<span>$29</span></h3>
+                                <a class="btn btn-lg btn-primary" href="#">Sign up</a>
+                                <ul>
+                                  <li><strong>5GB</strong> Disk Space</li>
+                                  <li><strong>50GB</strong> Monthly Bandwidth</li>
+                                  <li><strong>10</strong> Email Accounts</li>
+                                  <li><strong>Unlimited</strong> subdomains</li>
                                 </ul>
                               </div>
                             </div>
                             <div class="col-lg-3 col-sm-6">
                               <div class="plan">
-                                <div class="plan-ribbon-wrapper"><div class="plan-ribbon">Inclus!</div></div>
-                                <h3 class="mb-xs">Application <br>Mobile</h3>
-                                <a class="btn btn-sm btn-primary mb-sm" href="#">En savoir plus</a>
-                                <ul class="mt-none">
-                                  <li><strong>Numérisation:</strong> Scan rapide des données des visiteurs</li>
-                                  <li><strong>Analyse des données:</strong> Affichage des types de visiteurs sous forme de diagrammes, ...</li>
-                                  <li><strong>Marketing Direct:</strong> Relance des prospects par sms à prix comptant</li>
+                                <h3>Standard<span>$17</span></h3>
+                                <a class="btn btn-lg btn-primary" href="#">Sign up</a>
+                                <ul>
+                                  <li><strong>3GB</strong> Disk Space</li>
+                                  <li><strong>25GB</strong> Monthly Bandwidth</li>
+                                  <li><strong>5</strong> Email Accounts</li>
+                                  <li><strong>Unlimited</strong> subdomains</li>
                                 </ul>
                               </div>
                             </div>
                             <div class="col-lg-3 col-sm-6">
                               <div class="plan">
-                                <div class="plan-ribbon-wrapper"><div class="plan-ribbon">Inclus!</div></div>
-                                <h3 class="mb-xs">Service <br>Général</h3>
-                                <a class="btn btn-sm btn-primary mb-sm" href="#">En savoir plus</a>
-                                <ul class="mt-none">
-                                  <li class="text-left">
-                                    <strong class=>Rabat:</strong> 
-                                    <ul class="plan-regular-list mt-none">
-                                      <li>journée d'exposition</li>
-                                      <li>Déplacement Inter-urbain</li>
-                                      <li>Déjeuner et pauses-café</li>
-                                    </ul>
-                                  </li>
-                                  <li class="text-left">
-                                    <strong class=>Casablanca:</strong> 
-                                    <ul class="plan-regular-list mt-none">
-                                      <li>Stand 9m2 équipé (Enseigne, 1 Table, 3 Chaises, Badges, Corbeille)</li>
-                                      <li>Transfert (Hôtel/Exposition)</li>
-                                      <li>Pauses-café</li>
-                                    </ul>
-                                  </li>
-                                </ul>
-                              </div>
-                            </div>
-                            <div class="col-lg-3 col-sm-6">
-                              <div class="plan">
-                                <div class="plan-ribbon-wrapper"><div class="plan-ribbon ribbon-optional">En option</div></div>
-                                <h3 class="mb-xs">Campagne <br>Pré-Evenement</h3>
-                                <a class="btn btn-sm btn-primary mb-sm" href="#">En savoir plus</a>
-                                <ul class="mt-none">
-                                  <li><strong>Page de présentation:</strong> Offerte</li>
-                                  <li><strong>Bannières publicitaires:</strong> 25.000 impressions</li>
-                                  <li><strong>SMS à notre BDD:</strong> 10.000 sms</li>
-                                  <li><strong>Promotion Réseaux Sociaux</strong></li>
+                                <h3>Basic<span>$9</span></h3>
+                                <a class="btn btn-lg btn-primary" href="#">Sign up</a>
+                                <ul>
+                                  <li><strong>1GB</strong> Disk Space</li>
+                                  <li><strong>10GB</strong> Monthly Bandwidth</li>
+                                  <li><strong>2</strong> Email Accounts</li>
+                                  <li><strong>Unlimited</strong> subdomains</li>
                                 </ul>
                               </div>
                             </div>
