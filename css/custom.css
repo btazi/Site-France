@@ -1,8 +1,21 @@
 /* Add here all your CSS customizations */
 #revolutionSlider > ul > li > div.slotholder > div {
-  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url("../img/slides/slide-bg-full-4-dark.jpg") !important;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url("../img/slides/slide-bg-full-4-dark.jpg") !important;
 }
 
 .list-inline {
+  color: #ffffff;
+}
+
+.header-body {
+  background: #ffffff !important;
+}
+
+.header-body a {
+  color: black !important;
+}
+
+#header .header-nav-main nav > ul > li.open > a, #header .header-nav-main nav > ul > li:hover > a {
+  background: #d2322d;
   color: #ffffff;
 }
