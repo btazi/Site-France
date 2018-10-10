@@ -19,3 +19,17 @@
   background: #d2322d;
   color: #ffffff;
 }
+
+ul.plan-regular-list li {
+  padding: 3px 0;
+  border-top: none;
+  list-style-position: inside;
+  list-style-type: circle;
+  text-align: left;
+}
+
+.pricing-table .plan-ribbon.ribbon-optional {
+  background-image: -webkit-linear-gradient(top, #acc4ef, #80a5e6,);
+  background-image: linear-gradient(to bottom, #acc4ef, #80a5e6);
+  background-color: #80a5e6;
+}
