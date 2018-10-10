@@ -46,3 +46,7 @@ ul.plan-regular-list li {
 .contact p {
   color:#fff;
 }
+
+#mainNav > li:hover a {
+  color: #ffffff;
+}
