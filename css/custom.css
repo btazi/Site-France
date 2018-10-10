@@ -48,5 +48,5 @@ ul.plan-regular-list li {
 }
 
 #mainNav > li:hover a {
-  color: #ffffff;
+  color: #ffffff !important;
 }
