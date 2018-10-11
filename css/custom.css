@@ -7,11 +7,11 @@
   color: #ffffff;
 }
 
-.header-body {
-  background: #ffffff !important;
-}
+/* .header-body { */
+/*   background: #ffffff !important; */
+/* } */
 
-.header-body a {
+html.sticky-header-active .header-body a {
   color: black !important;
 }
 
@@ -49,4 +49,16 @@ ul.plan-regular-list li {
 
 #mainNav > li:hover a {
   color: #ffffff !important;
+}
+
+.sort-destination.full-width .isotope-item {
+  width: 25%;
+}
+
+.aboutus-features h4 {
+  font-weight: bold;
+}
+
+.aboutus-features .feature-box.feature-box-style-2 .feature-box-info {
+  padding-left: 0 ;
 }
